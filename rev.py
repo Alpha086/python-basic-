@@ -1,0 +1,6 @@
+text=input("enter your text ")
+print (f"your reverse is :{text[-1::-1]}")
+print (f"your lowe case is : {text.lower()}")
+print (f"your upper case is : {text.upper()}")
+print (f"your title is : {text.title()}")
+print (f'your word count is : { text.count("a")}')
